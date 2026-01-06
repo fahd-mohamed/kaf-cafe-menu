@@ -46,7 +46,15 @@ img {
   background: rgba(15, 20, 25, 0.95);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
+
+  transition: transform 0.35s ease, opacity 0.35s ease;
 }
+
+.navbar.hide {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
 
 .logo {
   font-weight: 900;

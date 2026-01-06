@@ -104,6 +104,22 @@ function attachEvents() {
     });
   });
 }
+let lastScrollY = window.scrollY;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  const currentScrollY = window.scrollY;
+
+  if (currentScrollY > lastScrollY && currentScrollY > 80) {
+    // نازل لتحت
+    navbar.classList.add('hide');
+  } else {
+    // طالع لفوق
+    navbar.classList.remove('hide');
+  }
+
+  lastScrollY = currentScrollY;
+});
 
 // Initialize
 renderMenu();
