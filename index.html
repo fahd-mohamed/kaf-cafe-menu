@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaf caffe | قائمة الكافيه</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo" id="logo-img" class="logo-img"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <span class="logo-text" style="display: none;">kaf caffe</span>
+        </div>
+        <nav>
+            <a href="#menu">القائمة</a>
+          </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero__content">
+            <p class="eyebrow">مرحباً بك في</p>
+            <h1>kaf caffe - كافيه راقي مع قهوة متميزة</h1>
+            <p class="subtitle">استمتع بمجموعة متنوعة من المشروبات الساخنة والباردة والحلويات الفاخرة في أجواء هادئة
+                ومريحة</p>
+        </div>
+        <div class="hero__visual">
+            <div class="glass-card">
+                <div class="hero-image-placeholder">
+                    <div class="image-frame">
+                        <img src="src\assets\unnamed.jpg" alt="Cafe Image">
+                  </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="section-header">
+            <div>
+                <p class="eyebrow">قائمتنا المميزة</p>
+                <h2>استمتع بنكهات لا تُنسى</h2>
+            </div>
+        </div>
+
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">الكل</button>
+            <button class="category-btn" data-category="hot">مشروبات ساخنة</button>
+            <button class="category-btn" data-category="cold">مشروبات باردة</button>
+          </div>
+
+        <div id="menuGrid" class="menu-grid"></div>
+    </section>
+
+   
+    <section id="contact" class="contact">
+        <div class="contact__info">
+            <p class="eyebrow">تواصل معنا</p>
+            <h2>نحن هنا من أجلك</h2>
+            <p>زورنا أو تواصل معنا للحجز أو الاستفسار. نحن جاهزون لخدمتك دائماً.</p>
+            <div class="contact__cards">
+                <div class="mini-card">
+                    <div class="mini-title">الهاتف</div>
+                    <div class="mini-value">+20 1000000000</div>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-title">البريد</div>
+                    <div class="mini-value">info@caf.com</div>
+                </div>
+                <div class="mini-card">
+                    <div class="mini-title">ساعات العمل</div>
+                    <div class="mini-value">يومياً 8 ص - 3 ص</div>
+                </div>
+            </div>
+        </div>
+      <div class="map-container">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.4304158174679!2d31.601694999999996!3d30.158147600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14581d003a955501%3A0x588ceb5e04028d1a!2sKaf%20caffe!5e1!3m2!1sar!2seg!4v1767714537585!5m2!1sar!2seg"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+    </section>
+
+    <footer class="footer">
+        <div>
+            <div class="logo">
+                <img src="logo.png" alt="Logo" id="footer-logo" class="logo-img"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <span class="logo-text" style="display: none;">kaf caffe</span>
+            </div>
+            <p>استمتع بتجربة قهوة فريدة في أجواء راقية ومريحة.</p>
+        </div>
+        <div class="footer__links">
+            <a href="#menu">القائمة</a>
+          </div>
+        <div class="footer__cta">
+            <p class="mini-label">تابعنا على وسائل التواصل الاجتماعي</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
