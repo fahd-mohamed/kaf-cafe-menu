@@ -30,6 +30,37 @@ const menuItems = [
     tags: ['قهوة', 'شوكولاتة'],
     image: 'src/assets/cappuccino.jpg'
   },
+  
+   {
+    id: 1,
+    name: 'إسبرسو',
+    category: 'hot',
+    price: 25,
+    description: 'قهوة إسبرسو قوية ومكثفة من أجود أنواع الحبوب',
+    tags: ['قهوة', 'قوية'],
+    image: 'src/assets/cappuccino.jpg'
+  },
+  
+  
+  {
+    id: 2,
+    name: 'ايس كوفي',
+    category: 'cold',
+    price: 40,
+    description: 'مزيج رائع من القهوة والشوكولاتة والحليب',
+    tags: ['قهوة', 'شوكولاتة'],
+    image: 'src/assets/icedcoffee.jpg'
+
+  },
+  {
+    id: 3,
+    name: 'موكا',
+    category: 'cold',
+    price: 40,
+    description: 'مزيج رائع من القهوة والشوكولاتة والحليب',
+    tags: ['قهوة', 'شوكولاتة'],
+    image: 'src/assets/cappuccino.jpg'
+  },
    
 ];
 

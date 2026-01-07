@@ -35,6 +35,17 @@ img {
   --coffee-brown: #8b4513;
 }
 
+.logo-text {
+  font-family: 'Cairo', sans-serif; /* أو أي فونت أساسي */
+  font-size: 28px;
+}
+
+.logo-word {
+  font-family: 'Allura', cursive;
+  font-size: 40px;   /* Allura حلوة وهي أكبر شوية */
+  font-weight: 400;
+}
+
 .navbar {
   position: sticky;
   top: 0;
