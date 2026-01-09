@@ -572,7 +572,7 @@ const menuItems = [
     category: 'shisha',
     price: 85,
     description: 'معسل فواكه فاخر',
-    tags: ['شيشة', 'فواكه'],
+    tags: ['شيشة', 'فواكه','مكس ', 'كنتلوب','اناناس', 'كيوي','تفاح ', 'مانجا'],
     image: 'src/assets/Photo/shisha.jpg'
   }
 
